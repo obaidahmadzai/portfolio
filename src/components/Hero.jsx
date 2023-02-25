@@ -6,7 +6,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 function Hero() {
   return (
     <div id="home" className="w-full h-screen text-center">
-      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
+      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center widescreen:section-min-height tallscreen:section-min-height">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600">
             Let's Build Something Together

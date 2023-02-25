@@ -5,7 +5,10 @@ import ProjectItem from "./ProjectItem";
 
 function Projects() {
   return (
-    <div id="projects" className="w-full">
+    <div
+      id="projects"
+      className="w-full  widescreen:section-min-height tallscreen:section-min-height scroll-mt-20"
+    >
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Projects

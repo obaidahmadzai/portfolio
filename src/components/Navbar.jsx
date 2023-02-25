@@ -29,7 +29,7 @@ function Navbar() {
       className={
         shadow
           ? "fixed w-full h-20 shadow-xl z-[100]  bg-[#ecf0f3]"
-          : "fixed w-full h-20 z-[100] bg-[#ecf0f3]"
+          : "fixed w-full h-20 z-[100] "
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 ">
@@ -41,25 +41,25 @@ function Navbar() {
         ></Image>
         <div>
           <ul className="hidden md:flex">
-            <Link href="/">
+            <a href="/#home">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
-            </Link>
-            <Link href="/#about">
+            </a>
+            <a href="/#about">
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
-            </Link>
-            <Link href="/#skills">
+            </a>
+            <a href="/#skills">
               <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
-            </Link>
-            <Link href="/#projects">
+            </a>
+            <a href="/#projects">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Projects
               </li>
-            </Link>
-            <Link href="/#contact">
+            </a>
+            <a href="/#contact">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Cantact
               </li>
-            </Link>
+            </a>
           </ul>
           <div onClick={() => handelNav()} className="md:hidden cursor-pointer">
             <AiOutlineMenu size={25} />
@@ -101,31 +101,31 @@ function Navbar() {
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
-              <Link href="/">
+              <a href="/#home">
                 <li onClick={() => SetNav(false)} className="py-4 text-sm">
                   Home
                 </li>
-              </Link>
-              <Link href="/#about">
+              </a>
+              <a href="/#about">
                 <li onClick={() => SetNav(false)} className="py-4 text-sm">
                   About
                 </li>
-              </Link>
-              <Link href="/#skills">
+              </a>
+              <a href="/#skills">
                 <li onClick={() => SetNav(false)} className="py-4 text-sm">
                   Skills
                 </li>
-              </Link>
-              <Link href="/#projects">
+              </a>
+              <a href="/#projects">
                 <li onClick={() => SetNav(false)} className="py-4 text-sm">
                   Projects
                 </li>
-              </Link>
-              <Link href="/#contact">
+              </a>
+              <a href="/#contact">
                 <li onClick={() => SetNav(false)} className="py-4 text-sm">
                   Contact
                 </li>
-              </Link>
+              </a>
             </ul>
             <div className="pt-40">
               <p className="uppercase tracking-widest text-[#5651e5]">

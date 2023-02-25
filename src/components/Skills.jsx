@@ -3,7 +3,10 @@ import Skill from "./Skill";
 
 function Skills() {
   return (
-    <div id="skills" className="w-full lg:h-screen p-2">
+    <div
+      id="skills"
+      className="w-full lg:h-screen p-2 widescreen:section-min-height tallscreen:section-min-height scroll-mt-20"
+    >
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center">
         <p className="text-xl tracking-widest uppercase text-[#5652e5]">
           Skills
